@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitCenter"
+        android:src="@drawable/librofondo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libros de Ciencia Ficción"
+        android:textColor="#512c96"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="103dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="307dp"
+        android:layout_height="372dp"
+        android:layout_marginTop="200dp"
+        android:text="No existe una única definición para explicar qué es la ciencia-ficción. En realidad,
+        cada autor o ensayista ha gustado de dar su propio punto de vista y de acotar el género.
+
+Isaac Asimov, por ejemplo, dijo que «las historias de ciencia-ficción son viajes extraordinarios a uno de los infinitos futuros concebibles»;
+mientras que Kingsley Amis la definió como «aquella forma de narrativa que versa sobre situaciones que no podrían darse en el mundo que
+conocemos, pero cuya existencia se funda en cualquier innovación,
+de origen humano o extraterrestre, planteada en el terreno de la ciencia o de la técnica, o incluso en el de la pseudociencia o la pseudotécnica»."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
